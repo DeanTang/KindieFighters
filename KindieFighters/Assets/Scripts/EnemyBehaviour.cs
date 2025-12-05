@@ -19,6 +19,11 @@ public class EnemyBehaviour : MonoBehaviour
         def = defVal;
     }
 
+    public int GetAtk()
+    {
+        return atk;
+    }
+
     public void TakeDmg(int dmg)
     {
         hp = hp - dmg;
